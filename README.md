@@ -7,7 +7,7 @@ Basic [information and instructions can be found on TechPerplexed](http://bit.ly
 ## Installation:
 
 Run on Ubuntu or Debian with this command:  
-`sudo wget http://bit.ly/GetGooby -O /tmp/install.sh && sudo bash /tmp/install.sh`
+`bash -c "$(wget -qO - https://raw.githubusercontent.com/IIPoliII/Gooby/master/install/install.sh)"` or `sudo bash -c "$(wget -qO - https://raw.githubusercontent.com/IIPoliII/Gooby/master/install/install.sh)"`
 
 ## Supported Apps:
 
@@ -19,9 +19,3 @@ Make sure you check out the excellent [Wiki here on GitHub](https://github.com/T
 ## Disclaimer:
 
 This software is supplied "AS IS" without any warranties and support. You are solely responsible for determining whether Gooby is compatible with your equipment and other software installed on your system. Make sure you have a backup of all your important data!
-
-## Donate:
-
-By popular request, at long last here is a donate button. Thank you SO MUCH for your generosity - I promise I will think of you when I sip that coffee!
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2YZQCA4GA2RSG)
